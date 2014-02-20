@@ -1,0 +1,136 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 60px;
+}
+.jumbotron {
+	height: 650px;
+	background-position-y: 680px;
+	background-position-x: -310px;
+	background-color: rgba(255,255,255,0.1);
+}
+.jumbotron .container{
+	height:100%;
+}
+.jumbotron .container .row-fluid{
+	width: 50%;
+	background-color:rgba(255,255,255,0.65);
+	max-height: 600px;
+	color: black;
+	padding:15px;
+	overflow: hidden;
+}
+.jumbotron .container .row-fluid h1{
+	margin-top:0px;
+}
+.gallery_number{
+	display: inline-block;
+}
+.col-md-1 .shadow-well{position: relative; }
+.col-md-2 .shadow-well{position: relative; }
+.col-md-3 .shadow-well{position: relative; }
+.col-md-4 .shadow-well{position: relative; }
+.col-md-5 .shadow-well{position: relative; }
+.col-md-6 .shadow-well{position: relative; }
+.col-md-7 .shadow-well{position: relative; }
+.col-md-8 .shadow-well{position: relative; }
+.col-md-9 .shadow-well{position: relative; }
+.col-md-10 .shadow-well{position: relative; }
+.col-md-11 .shadow-well{position: relative; }
+.col-md-12 .shadow-well{position: relative; }
+.shadow-well{
+	box-shadow: 0px 1px 1px rgba(0,0,0,.15), 0px 2px 1px rgba(0,0,0,.10), 0px 3px 1px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.15), 0px 2px 1px rgba(0,0,0,.10), 0px 3px 1px rgba(0,0,0,.05);
+	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.15), 0px 2px 1px rgba(0,0,0,.10), 0px 3px 1px rgba(0,0,0,.05);
+	margin-bottom: 15px;
+}
+#index-intro{
+	margin-bottom:45px;
+	padding-bottom: 30px;
+	border-bottom: 1px gray dashed;
+}
+.no-padding{
+	padding:0px;
+}
+.image:hover .shopmask{
+	text-align: center;
+	display:block;
+	height:463px; 
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	color:rgb(245, 0, 59);
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;     
+    box-sizing: border-box; 
+}
+.image .shopmask{display:none;}
+.image:hover{display:block;max-height: 800px;overflow: hidden;text-decoration: none;}
+.picture .title{
+	background-color:gray;height:263px;color:white;line-height:263px;font-size:30px;
+}
+.picture .item-description{
+	background-color: rgba(0, 0, 0, 0.75);
+	color: goldenrod;
+	height:200px;
+	overflow:hidden;
+}
+#search-top{
+	width:300px;
+	display: inline-block;
+}
+#QueryBox{
+	border-color:black;
+}
+#btn-search{
+	border-color:black;
+}
+.search_form_li{
+	text-align: center;
+}
+.index_gallery{
+	list-style: none;
+	display:inline-block;
+	background-color: transparent;
+}
+.index_gallery li{
+	font-weight: bold;
+	display:inline;
+	background-color: white;
+	margin: 0px 8px;
+	font-size: 13px;
+	height: 7px;
+	padding: 5px;
+}
+.index_gallery .active{
+	font-weight: bold;
+	display:inline;
+	background-color: rgb(245, 0, 59);
+	color:white;
+	margin: 0px 8px;
+	font-size: 13px;
+	height: 7px;
+	padding: 5px;
+}
+.gallery_pic {
+	top: 65px;
+	left: 0;
+	bottom: 0;
+	height: 650px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	display: none;
+}
+.index-block-title{
+	margin-bottom:40px;
+}
+.index-block-foot{
+	border-bottom: 1px dashed gray;
+	margin-bottom: 15px;
+}
+#logo{
+	height:50px;
+}
